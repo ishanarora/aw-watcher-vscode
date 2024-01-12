@@ -28,6 +28,11 @@
     "extensionKind": [
         "ui"
     ],
+    "capabilities": {
+        "untrustedWorkspaces": {
+            "supported": true
+        }
+    },
     "main": "./out/src/extension",
     "contributes": {
         "commands": [
